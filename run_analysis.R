@@ -81,4 +81,5 @@ cleanData$ActivityID=ActivityID
 
 ## Save the results
 
-write.table(cleanData,"cleanData.txt") 
+write.table(cleanData,"cleanData.txt",row.name=FALSE) 
+
